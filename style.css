@@ -1,0 +1,414 @@
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 5;
+    background-color: whitesmoke;
+    height: 6rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top:6rem;
+    padding-bottom:3rem;
+}
+h3{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+#sortingH2{
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a { color: inherit; 
+    text-decoration: none;
+} 
+
+#luckyFooter{
+color: rgb(247, 41, 41)
+}
+
+#smallLucky{
+
+padding: 3px 0rem 3px 0rem;   
+height: 100%;
+border-radius: 8px;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.nav-box{
+    width: 100%;
+    grid-column: span 5;
+    height: 1%;
+    border-style: solid;
+    border-color: lightgray;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+.side-box{
+    grid-column: span 1;
+    background-color: white;
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 11rem;
+    z-index:1;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+
+
+    
+}
+/* .main-box{
+    grid-column: span 4;
+    background-color: whitesmoke;
+    border-color: lightgray;
+    border-top: 0;
+    margin-left: 3rem;
+    z-index: 0;
+    height: 100%;
+
+
+} */
+.meny-container{
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 11rem;
+    z-index: 0;
+    background-color: whitesmoke;
+    min-width: 20rem;
+}
+.food{
+    grid-column: span 1;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 5px;
+
+}
+.custom-font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+}
+
+.custom-buttonAddDelete{
+
+    padding:10px;
+}
+
+
+#cart{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-wrap: wrap;
+}
+
+#kundvagnH2{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+
+}
+/* //------------------- */
+
+.topContainer{
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    height: 12rem;
+    background-color: #e4fff700;
+    border-color:black;
+    padding: 2px;
+    z-index: 5; 
+
+}
+
+.btn{
+    margin-right:1rem;
+    margin-top:1rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Space Grotesk', sans-serif;
+    float: left;
+}
+
+#irishDuck{
+    display: flex;
+    justify-self: left;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 9rem;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+#h1{
+   
+    font-family: 'Poppins', sans-serif;
+    font-size: 30pt;   
+    background-color: rgba(240, 248, 255, 0.637);
+    border-radius: 5px;
+    padding: 3rem;
+    margin-top: 20px;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-family:"'Poppins', sans-serif";
+}
+
+
+p{
+    text-align: center;
+    margin: 8px;
+  }
+
+#video-bg{
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    border-bottom: 2px solid black;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+form{
+    text-align: center;
+}
+input[type=button] {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14pt;
+    font-weight:200;  
+    text-align: center; 
+    line-height: 15px; 
+}
+
+input[type=button]:hover
+{ 
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.filter-container{
+
+    display: block;
+
+}
+#sortingH2{
+    display: block;
+    font-size: 18pt;
+    margin-bottom: -10px;
+}
+
+#mainCourseForm{
+float:left;
+text-align: left;
+}
+
+#mainAllergyForm2{
+display: block;
+float: left;
+}
+
+#mainSortingForm{
+    display: block;
+    float: left;
+}
+#mainCourseH2{
+display: flex;
+text-wrap:nowrap;
+justify-self: left;
+font-size: 18pt;
+margin-bottom: -10px;
+
+
+}
+#allergiesH2{
+font-family: 'Poppins', sans-serif;
+display: block;
+font-size: 18pt;
+margin-bottom: -10px;
+
+
+
+}
+
+#sortingH2{
+    display: block;
+}
+
+#dropDownFilter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#languageButton{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.dropdown-toggle {
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+  #filterButton{
+    background-color: white;
+    color: black;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 4rem;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .dropdown-menu {
+    background-color: rgb(255, 255, 255);
+    border: 1.5px dashed black;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 40px 10px 40px;
+    z-index: 10;
+
+}
+
+#show{
+    float:left;
+}
+
+
+@media(max-width:700px){
+
+    #cart{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: white;
+        font-weight: 700;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .grid-container{
+        display:block;
+    }
+    .meny-container{
+    display:inline;
+    text-align:center;
+    
+    }
+    
+    #filterButton{
+        background-color: white;
+        color: black;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-bottom: 1rem;
+        display: block;
+      }
+    
+    #irishDuck{
+        display: flex;
+        justify-self: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        height: 6rem;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+    
+    .dropdown-menu {
+        background-color: rgb(255, 255, 255);
+        border: 1.5px dashed black;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+    .filter-container{
+    background-color: rgba(255, 255, 255, 0.075);
+    display:inline;
+    text-align: center;
+    }
+    .side-box{
+        background-color: rgba(255, 255, 255, 0.075);
+        display:inline;
+    text-align: center;
+    }
+    .over-box{
+        background-color: rgba(255, 255, 255, 0.075);
+        display:inline;
+    text-align: center;
+    }
+    #h1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-self: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30pt;   
+        background-color: rgba(240, 248, 255, 0.637);
+        border-radius: 50px;
+        padding: 5px;
+        margin-top: 5px;
+        height: 8rem;
+    }
+    
+    .nav-box{
+    border: none;   
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        font-family: 'Poppins', sans-serif;
+    }
+    #smallLucky{
+        padding: 3px 0rem 3px 0rem;   
+        height: 100%;
+        border-radius: 8px;
+        }
+        h3{
+            font-size: 1.1rem;
+        }
+        #kundvagnH2{
+
+            margin-top: 2rem;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16pt;
+
+        }
+    }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><!--Ändra-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="nav-box">
+            <div class="topContainer">
+                <video id="video-bg" autoplay loop muted>
+                    <source src="videos/food.mp4" type="video/mp4" alt="Video of food, being prepared">
+                </video>
+                <img src="images/lucky_duck.png" id="irishDuck" alt="Lucky duck small logo">
+                <div id="h1"><h1></h1></div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Language</button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" id="sv" href="#">Svenska</a></li>
+                    <li><a class="dropdown-item" id="en" href="#">English</a></li>
+                    </ul>
+                </div>
+            </div>        
+        </div>
+        <div class="side-box">
+            <div class="filter-container">
+                <div class="over-box">
+                    <div class="dropdown"  id="dropDownFilter">
+                 <button id="filterButton" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter</button>
+                 <ul class="dropdown-menu">
+                     <h2 id="mainCourseH2">Huvudrätt</h2>
+                 <form action="" id="mainCourseForm">
+                     <input type="checkbox" id="veg" name="veg" value="vegetarian">
+                     <label id="label1" for="veg"> Vegetariskt</label><br>
+                     <input type="checkbox" id="chicken" name="chicken" value="chicken">
+                     <label id="label2" for="chicken">Kyckling</label><br>
+                     <input type="checkbox" id="beef" name="beef" value="beef">
+                     <label  id="label3" for="beef"> Nötkött</label><br>
+                     <input type="checkbox" id="pork" name="pork" value="pork">
+                     <label  id="label4" for="pork"> Fläsk</label><br>
+                     <input  type="checkbox" id="sea" name="sea" value="sea">
+                     <label id="label5" for="Seafood"> Fisk & Skaldjur</label><br><br>
+                   </form>
+                   <h2 id="allergiesH2">Allegier</h2>
+                   <form action="" id="mainAllergyForm2">
+                     <input type="checkbox" id="glu" name="glu" value="gluten">
+                     <label id="allergy1" for="glu"> Glutenfritt</label><br>
+                     <input type="checkbox" id="laktos" name="laktos" value="laktos">
+                     <label id="allergy2" for="laktos"> Laktosfritt</label><br><br>
+                   </form>  
+                   <br>
+                   <br>
+                   <h2 id="sortingH2">Pris</h2>
+                   <form action="" id="mainSortingForm">
+                     <input type="checkbox" id="ascending" name="ascending" value="ascending">
+                     <label id="ascendingChoice" for="ascending">Stigande</label><br>
+                     <input type="checkbox" id="descending" name="descending" value="descending">
+                     <label id="descendingChoice" for="descending">Fallande</label><br><br>
+                   </form>   
+             </div>
+             <h2 id="kundvagnH2"><br>Kundvagn:</h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="meny-container">
+            
+        </div>
+    </div>
+    <div class="footer">
+        <h3>A  <a href="https://boras.brasseriet.com/" target="_blank"><em id="luckyFooter">Lucky Duck</em> </a> always leaves its ducklings happy</h3>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
